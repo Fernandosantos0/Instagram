@@ -6,7 +6,7 @@
 }
 
 main#main {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -28,6 +28,8 @@ section#logo-img {
 section#logo-img img {
     width: 600px;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 section#logan {
