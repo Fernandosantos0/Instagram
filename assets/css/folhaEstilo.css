@@ -39,16 +39,16 @@ section#logan {
 }
 
 section#logan header#logo-insta h1 {
-    width: 175px;
     height: 51px;
     text-indent: -1000000px;
     background: url('../img/logo-instagram.png') no-repeat;
+    background-position: center center;
     cursor: pointer;
 }
 
 section#logan form input {
     font-size: 10pt;
-    width: 80%;
+    width: 100%;
     padding: 6px;
     margin-bottom: 5px;
 }
@@ -83,8 +83,14 @@ li#logo-face a,
     color: rgba(0, 153, 255, 0.548);
 }
 
+div#btn-app {
+    display: flex;
+    justify-content: center;
+}
+
 .appMobile {
     width: 100px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 889px) {
@@ -108,15 +114,18 @@ li#logo-face a,
         width: 100%;
     }
 
-    .appMobile img {
-        text-align: center;
-
-    }
-
 }
 
 @media screen and (max-width: 664px){
     .appMobile {
         width: 25%;
+        margin-right: 15px;
     }
+
+    div#btn-app {
+        display: inline-block;
+        margin-right: 15px;
+        text-align: center;
+    }
+
 }
