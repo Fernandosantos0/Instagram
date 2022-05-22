@@ -21,6 +21,11 @@ main#main {
     justify-content: space-between;
 }
 
+div.container {
+    box-shadow: 3px 3px 3px rgba(34, 33, 33, 0.479);
+    padding: 15px;
+}
+
 section#logo-img {
     width: 40%;
 }
